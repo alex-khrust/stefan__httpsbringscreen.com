@@ -83,6 +83,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   font-family: 'pf_dindisplay_proregular';
   font-size: 14px;
@@ -202,13 +203,13 @@ html, body {
 /*-------pravki 27.02.2018-------*/
 
 
-/*.item:hover {*/
-  /*background: url(../images/open_fancy_img.png) no-repeat center;*/
-/*}*/
-/*.item a img:hover {*/
-  /*display: block;*/
-  /*opacity: 0.5;*/
-/*}*/
+.item:hover {
+  background: url(../images/open_fancy_img.png) no-repeat center;
+}
+.item a img:hover {
+  display: block;
+  opacity: 0.5;
+}
 
 
 .item a:before {
