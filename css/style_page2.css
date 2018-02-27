@@ -246,10 +246,20 @@ html, body {
 }
 
 
-.text_detect-drop{
-  position: relative;
+.text_detect-menu{
   display: block;
+  float: left;
+  margin: 35px 0 75px;
 }
+.text_detect-menu .btn{
+  float: left;
+}
+.text_detect-btn{
+  float: left;
+  margin-left: 10px;
+  padding: 7px;
+}
+
 /*-------pravki 27.02.2018-------*/
 .slider_margin {
   margin: 0 20%;
