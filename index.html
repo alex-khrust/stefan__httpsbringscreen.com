@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--<html xmlns="https://www.w3.org/1999/xhtml">-->
+<html xmlns="https://www.w3.org/1999/xhtml">
 
 <head>
   <meta charset="utf-8">
@@ -93,10 +93,10 @@
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 pad0 banner_left_page2"></div>
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 pad0 wrapper_carousel">
           <span id="lblTitle" class="i_want_page2">Uploading</span>
-          <div id="image" class="carousel" data-ride="carousel">
 
-<!--block for image---start---------------------------->
-            <div class="carousel-inner wrap_img">
+          <!--block for image---start---------------------------->
+          <div id="image" class="slide wrap_img">
+            <div class="carousel-inner">
               <div class="item active">
                 <a class="fancybox"
                    href='https://nd1.bringscreen.com/ca39683b66eeea9ab3d91f6bd4030c7a/4/i1a8kCbd3wtIfo.png'
@@ -121,17 +121,15 @@
                 <li><a href='/screen-text-detect.aspx?url=CnA07BBD7pSqCJr&lang=eng'>English</a></li>
                 <li><a href='/screen-text-detect.aspx?url=CnA07BBD7pSqCJr&lang=rus'>Russian</a></li>
               </ul>
-              <span class="text_detecter-btn">Распознать</span>
+              <input type="button" class="text_detecter-btn" value="Распознать">
             </div>
-<!--block for image---end------------------------------>
-
           </div>
+          <!--block for image---end------------------------------>
 
 
 
-
-<!--block for carousel---start-------------------------->
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!--block for carousel---start-------------------------->
+          <div id="carousel-example-generic" class="carousel slide wrap_carousel" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -139,9 +137,10 @@
               <li data-target="#carousel-example-generic" data-slide-to="2"></li>
               <li data-target="#carousel-example-generic" data-slide-to="3"></li>
             </ol>
+            <input type="button" class="redacting-btn" title="Редактировать">
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner wrap_carousel">
+            <div class="carousel-inner">
               <div class="item active">
                 <a class="fancybox"
                    href='https://nd1.bringscreen.com/ca39683b66eeea9ab3d91f6bd4030c7a/4/i1a8kCbd3wtIfo.png'
@@ -202,16 +201,16 @@
 
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="glyphicon slider-btn-left"></span>
             </a>
             <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="glyphicon slider-btn-right"></span>
             </a>
           </div>
-<!--block for carousel---end---------------------------->
+          <!--block for carousel---end---------------------------->
 
 
-<!--block for the detected text---start----------------->
+          <!--block for the detected text---start----------------->
           <div class="carousel-inner wrap_detect-text">
           <div class="detect-text">
             <p>
@@ -219,7 +218,7 @@
             </p>
           </div>
           </div>
-<!--block for the detected text---end------------------->
+          <!--block for the detected text---end------------------->
 
 
 

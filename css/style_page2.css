@@ -200,7 +200,7 @@ html, body {
 .item a {
   display: block;
 }
-/*-------pravki 27.02.2018-----------------*/
+/*-------pravki 27.02.2018---start--------------*/
 
 
 /*.item:hover {*/
@@ -258,6 +258,9 @@ html, body {
   float: left;
   margin-left: 10px;
   padding: 7px;
+  border: none;
+  background: none;
+  outline: none;
 }
 
 
@@ -298,28 +301,73 @@ html, body {
   height: auto;
   display: block;
   background: #fff;
-  border: 1px solid #d8d6d5;
+  /*border: 1px solid #d8d6d5;*/
   border-radius: 10px;
   padding: 25px;
 }
 
 .wrap_img {
-
+  /*display: none;*/
 }
 .wrap_carousel {
-
+  /*display: none;*/
 }
 .wrap_detect-text {
+  /*display: none;*/
+}
 
+.redacting-btn{
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  background: url(../images/redacting.png) no-repeat;
+  z-index: 100;
+  outline: none;
+  border: none;
+  overflow: hidden;
+
+}
+
+.slider-btn-left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  z-index: 5;
+  display: inline-block;
+  background: url("../images/slider-btn-r.png") no-repeat;
+  transform: rotate(180deg);
+}
+.slider-btn-right {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  margin-right: -10px;
+  z-index: 5;
+  display: inline-block;
+  background: url("../images/slider-btn-r.png") no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .slider-btn-left, .slider-btn-right {
+    margin-right: -15px;
+    width: 22px;
+    height: 40px;
+    margin-top: -15px;
+    font-size: 30px;
+  }
+  .slider-btn-left {
+    left: 50%;
+    margin-left: -10px;
+  }
 }
 
 
 
 
-
-
-
-/*--------------------pravki 27.02.2018-------*/
+/*------------pravki 27.02.2018---end------------*/
 .slider_margin {
   margin: 0 20%;
 }
