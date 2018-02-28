@@ -261,6 +261,14 @@ html, body {
 }
 
 
+.carousel-inner {
+  border-radius: 10px;
+  border: 1px solid #d8d6d5;
+  overflow: hidden;
+  background: #fff;
+  margin: 0 0 28px;
+}
+
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -294,6 +302,23 @@ html, body {
   border-radius: 10px;
   padding: 25px;
 }
+
+.wrap_img {
+
+}
+.wrap_carousel {
+
+}
+.wrap_detect-text {
+
+}
+
+
+
+
+
+
+
 /*--------------------pravki 27.02.2018-------*/
 .slider_margin {
   margin: 0 20%;
