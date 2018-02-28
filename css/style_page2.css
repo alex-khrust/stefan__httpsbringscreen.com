@@ -203,13 +203,13 @@ html, body {
 /*-------pravki 27.02.2018-----------------*/
 
 
-.item:hover {
-  background: url(../images/open_fancy_img.png) no-repeat center;
-}
-.item a img:hover {
-  display: block;
-  opacity: 0.5;
-}
+/*.item:hover {*/
+  /*background: url(../images/open_fancy_img.png) no-repeat center;*/
+/*}*/
+/*.item a img:hover {*/
+  /*display: block;*/
+  /*opacity: 0.5;*/
+/*}*/
 
 
 .item a:before {
@@ -246,20 +246,54 @@ html, body {
 }
 
 
-.text_detect-menu{
+.text_detecter-menu{
   display: block;
   float: left;
-  margin: 35px 0 75px;
+  margin-bottom: 70px;
 }
-.text_detect-menu .btn{
+.text_detecter-menu .btn{
   float: left;
 }
-.text_detect-btn{
+.text_detecter-btn{
   float: left;
   margin-left: 10px;
   padding: 7px;
 }
 
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 10px
+}
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+/*.slide{*/
+/*height: 361px;*/
+/*width: 466px;*/
+/*}*/
+
+.detect-text{
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #fff;
+  border: 1px solid #d8d6d5;
+  border-radius: 10px;
+  padding: 25px;
+}
 /*--------------------pravki 27.02.2018-------*/
 .slider_margin {
   margin: 0 20%;
@@ -495,10 +529,15 @@ html, body {
   .capabilities_text {max-width: 250px;}
 }
 
-
-
-
-
+.carousel-indicators {
+  height: 10px;
+  bottom: 6px;
+}
+@media screen and (min-width: 768px) {
+  .carousel-indicators{
+    bottom: 6px;
+  }
+}
 
 
 
@@ -603,3 +642,4 @@ input:checked + .slide-container .nav label { display: block; }
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
