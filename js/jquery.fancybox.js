@@ -80,14 +80,14 @@
 
 			arrows     : true,
 			closeBtn   : true,
-			closeClick : false,
+			closeClick : true,
 			nextClick  : false,
-			mouseWheel : true,
+			mouseWheel : false,
 			autoPlay   : false,
 			playSpeed  : 3000,
 			preload    : 3,
 			modal      : false,
-			loop       : true,
+			loop       : false,
 
 			ajax  : {
 				dataType : 'html',
