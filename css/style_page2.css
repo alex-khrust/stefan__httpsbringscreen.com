@@ -250,6 +250,7 @@ html, body {
   display: block;
   float: left;
   margin-bottom: 70px;
+  z-index: 10000;
 }
 .text_detecter-menu .btn{
   float: left;
@@ -291,11 +292,6 @@ html, body {
   border: 1px solid #000;
 }
 
-/*.slide{*/
-/*height: 361px;*/
-/*width: 466px;*/
-/*}*/
-
 .detect-text{
   width: 100%;
   height: auto;
@@ -307,13 +303,13 @@ html, body {
 }
 
 .wrap_img {
-  display: none;
+  /*display: none;*/
 }
 .wrap_carousel {
   /*display: none;*/
 }
 .wrap_detect-text {
-  display: none;
+  /*display: none;*/
 }
 
 .redacting-btn{
