@@ -3,12 +3,14 @@ var isLoading = false;
 $(document).ready(function () {
         $(".fancybox").fancybox();
     });
-jQuery ( "a.fancybox" ). fancybox ({ 
-    "onComplete" : function ()  { 
-        clearTimeout ( jQuery . fancybox . slider ); 
-        jQuery . fancybox . slider = setTimeout ( "jQuery.fancybox.next()" , 5000 ); 
-    } 
+jQuery ( "a.fancybox" ). fancybox ({
+    "onComplete" : function ()  {
+        clearTimeout ( jQuery . fancybox . slider );
+        jQuery . fancybox . slider = setTimeout ( "jQuery.fancybox.next()" , 5000 );
+    }
 });
+
+
 	
 function getUrlVars() {
     return window.location.href.slice(window.location.href.indexOf('?')).split(/[&?]{1}[\w\d]+=/);

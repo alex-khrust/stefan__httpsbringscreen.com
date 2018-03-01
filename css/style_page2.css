@@ -303,7 +303,7 @@ html, body {
 }
 
 .wrap_img {
-  display: none;
+  /*display: none;*/
 }
 .wrap_carousel {
   /*display: none;*/
