@@ -361,7 +361,22 @@ html, body {
 }
 
 
-
+.soсial_networks {
+  display: block;
+  width: 160px;
+  margin: 16.875% auto 2.29167%;
+}
+.soсial_networks li {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  margin-left: 22px;
+}
+.soсial_networks a {
+  display: block;
+  width: 26px;
+  height: 26px;
+}
 
 /*------------pravki 27.02.2018---end------------*/
 .slider_margin {
