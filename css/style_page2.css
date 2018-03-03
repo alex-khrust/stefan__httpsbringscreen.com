@@ -83,6 +83,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Days', sans-serif;
+  src: url('../fonts/DaysOne-Regular.ttf') format('truetype');
+  url('../fonts/Days-webfont.woff') format('woff');
+  font-weight: 700;
+}
+/*@import url(http://allfont.ru/allfont.css?fonts=days);*/
 
 body {
   font-family: 'pf_dindisplay_proregular';
@@ -116,50 +123,68 @@ html, body {
 .logo_page2 {
   margin: 1.875% 0 2.2916666666666665%;
 }
-.header_page2_center {
-  color:  #ffffff;
-  font-size: 1.314em;
-  font-weight: 400;
-  line-height: 1;
+.download-btn {
+  width: 234px;
+  height: 52px;
+  display: block;
+  position: relative;
+  background: url("../images/download-btn.png") no-repeat center;
   text-align:center;
-  padding: 4.166666666666666% 0 0;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.download-btn span {
+  width: 136px;
+  height: 33px;
+  position: absolute;
+  right: 27px;
+  top: 9px;
+  color:  #ffffff;
+  font-family: 'Days', sans-serif;
+  font-size: 14.8px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 .info_page2 {
   display: inline-block;
-  margin-top: -4px;
+  /*position: relative;*/
+  /*top: 6px;*/
 }
 .ul_header_page2 {
-  color:  #ffffff;
+  color:  #000000;
   font-size: 1.214em;
   font-weight: 400;
+  text-align: center;
+  margin: 15px 0 15px;
 }
 .ul_header_page2 li{
   display: inline;
-  padding-left: 25px;
-  margin-right: 15px;
+  padding-left: 30px;
+  margin-right: 50px;
 }
 .see_img {
   background: url(../images/see_img.png) no-repeat 0 5px;
 }
 .date_img {
-  background: url(../images/date_img.png) no-repeat 0 2px;
+  background: url(../images/calendar.png) no-repeat;
 }
 .name_img {
-  background: url(../images/name_img.png) no-repeat 0 2px;
-  margin-right: 0px !important;
+  background: url(../images/name_img.png) no-repeat 0 3px;
 }
-.soÑial_networks {
+.soсial_networks {
   display: block;
   width: 160px;
   margin: 16.875% auto 2.2916666666666665%;
 }
-.soÑial_networks li{
+.soсial_networks li{
   display: inline-block;
   width: 26px;
   height: 26px;
   margin-left: 22px;
 }
-.soÑial_networks a{
+.soсial_networks a{
   display: block;
   width: 26px;
   height: 26px;
@@ -360,23 +385,6 @@ html, body {
   }
 }
 
-
-.soсial_networks {
-  display: block;
-  width: 160px;
-  margin: 16.875% auto 2.29167%;
-}
-.soсial_networks li {
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  margin-left: 22px;
-}
-.soсial_networks a {
-  display: block;
-  width: 26px;
-  height: 26px;
-}
 
 /*------------pravki 27.02.2018---end------------*/
 .slider_margin {
